@@ -516,5 +516,12 @@ section.services .card-grid .card:hover p {
     }
 }
 
-
+.github-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  .github-link:hover {
+    transform: scale(1.2); 
+  }
+  
   
