@@ -108,7 +108,7 @@ header nav .logo {
     width: 100%;
     max-width: 400px;
     margin-left: 200px;
-    height: 250px;
+    height: 400px;
 }
 
 .hero .right {
@@ -202,6 +202,7 @@ body {
 
 .justify-between {
     justify-content: space-between;
+    
 }
 
 .justify-right {
@@ -523,5 +524,14 @@ section.services .card-grid .card:hover p {
   .github-link:hover {
     transform: scale(1.2); 
   }
+  
+  .blend-image {
+    mix-blend-mode: screen; /* or any other blend mode you prefer */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+  
   
   
