@@ -529,7 +529,13 @@ section.services .card-grid .card:hover p {
     height: auto;
     display: block;
 }
+.socials img {
+    transition: transform 0.3s ease;
+}
 
+.socials img:hover {
+    transform: scale(1.2);
+}
   
   
   
